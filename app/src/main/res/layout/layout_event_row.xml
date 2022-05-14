@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:padding="8dp"
+    android:orientation="vertical"
+    android:background="#ffffe0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvEventName"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Event Name"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvEventDateTime"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:text="MM DD YYYY"
+            android:textSize="12dp"
+            android:gravity="right"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvEventPlaceName"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="8dp"
+        android:text="Name of the place"
+        android:textSize="12dp"/>
+
+</LinearLayout>
